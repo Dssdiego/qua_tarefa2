@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scripts/debug_message.gd" type="Script" id=1]
+
+[node name="DebugMessage" type="Label"]
+margin_left = 20.1816
+margin_top = 571.81
+margin_right = 60.1816
+margin_bottom = 585.81
+text = "(1,1)"
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}

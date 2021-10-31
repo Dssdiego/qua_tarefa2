@@ -1,0 +1,66 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://textures/dvd.png" type="Texture" id=1]
+[ext_resource path="res://scripts/debug_ui.gd" type="Script" id=2]
+[ext_resource path="res://prefabs/debug_message.tscn" type="PackedScene" id=3]
+[ext_resource path="res://scripts/fps_counter.gd" type="Script" id=4]
+[ext_resource path="res://scripts/logo.gd" type="Script" id=5]
+[ext_resource path="res://textures/cartesian.png" type="Texture" id=6]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 16.628, 10.4726 )
+
+[node name="Main" type="Node2D"]
+
+[node name="DebugUI" type="Node2D" parent="."]
+script = ExtResource( 2 )
+
+[node name="FPS Counter" type="Label" parent="DebugUI"]
+margin_left = 16.837
+margin_top = 15.7145
+margin_right = 62.837
+margin_bottom = 29.7145
+text = "FPS: 30"
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Logo Direction" parent="DebugUI" instance=ExtResource( 3 )]
+script = null
+
+[node name="Cartesian Coordinates" type="TextureRect" parent="DebugUI"]
+margin_left = 678.099
+margin_top = 17.3529
+margin_right = 778.099
+margin_bottom = 117.353
+texture = ExtResource( 6 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Logo Speed" type="Label" parent="DebugUI"]
+margin_left = 732.827
+margin_top = 567.307
+margin_right = 772.827
+margin_bottom = 581.307
+text = "5"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Logo" type="KinematicBody2D" parent="."]
+position = Vector2( 400, 300 )
+scale = Vector2( 2, 2 )
+script = ExtResource( 5 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Logo"]
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="Logo"]
+scale = Vector2( 0.01, 0.01 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 0, 0, 3500, 2167 )
