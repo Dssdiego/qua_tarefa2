@@ -2,15 +2,14 @@
 
 [node name="Node2D" type="Node2D"]
 
-[node name="Label" type="Label" parent="."]
-anchor_left = 0.399
-anchor_right = 0.399
-margin_top = 60.476
+[node name="Title" type="Label" parent="."]
+margin_top = 63.9339
 margin_right = 800.0
-margin_bottom = 101.234
-text = "Diego"
+margin_bottom = 97.9339
+text = "RELAÇÃO DE ATRIBUTOS"
 align = 1
 valign = 1
+autowrap = true
 __meta__ = {
 "_edit_use_anchors_": false
 }

@@ -1,0 +1,46 @@
+[gd_scene format=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Title" type="Label" parent="."]
+margin_top = 97.1153
+margin_right = 800.0
+margin_bottom = 145.115
+text = "QUALIDADE DE SOFTWARE 
+
+DEPURAÇÃO DE CÓDIGO"
+align = 1
+valign = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Cite1" type="Label" parent="."]
+margin_left = 24.0
+margin_top = 319.757
+margin_right = 776.0
+margin_bottom = 435.757
+text = "ALUNO: DIEGO SANTOS SEABRA
+
+MATRÍCULA: 0040251"
+align = 2
+valign = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Cite2" type="Label" parent="."]
+margin_top = 493.51
+margin_right = 800.0
+margin_bottom = 558.51
+text = "INSTITUTO FEDERAL DE MINAS GERAIS
+
+CAMPUS OURO BRANCO"
+align = 1
+valign = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}

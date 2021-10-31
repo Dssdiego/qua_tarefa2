@@ -1,0 +1,75 @@
+[gd_scene format=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Title" type="Label" parent="."]
+margin_top = 63.9339
+margin_right = 800.0
+margin_bottom = 97.9339
+text = "REFERÊNCIAS BIBLIOGRÁFICAS"
+align = 1
+valign = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Cite1" type="Label" parent="."]
+margin_left = 24.0
+margin_top = 169.0
+margin_right = 800.0
+margin_bottom = 203.0
+text = "HOW TO DEBUG CODE - GAME PROGRAMMING TUTORIAL. [S. l.: s. n.], 2018. Disponível em: https://www.youtube.com/watch?v=Xhco4icJS3I. Acesso em: 31 out. 2021."
+valign = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Cite2" type="Label" parent="."]
+margin_left = 24.0
+margin_top = 244.0
+margin_right = 800.0
+margin_bottom = 278.0
+text = "OVERVIEW OF DEBUGGING TOOLS - GODOT ENGINE. [S. l.: s. n.], 2021. Disponível em: https://docs.godotengine.org/en/stable/tutorials/debug/overview_of_debugging_tools.html. Acesso em: 31 out. 2021."
+valign = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Cite3" type="Label" parent="."]
+margin_left = 24.0
+margin_top = 322.0
+margin_right = 800.0
+margin_bottom = 356.0
+text = "BÉLAIR, François. GETTING STARTED WITH DEBUGGING IN GODOT. [S. l.], 2020. Disponível em: https://www.gdquest.com/tutorial/godot/gdscript/debugging/. Acesso em: 31 out. 2021."
+valign = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Cite4" type="Label" parent="."]
+margin_left = 24.0
+margin_top = 403.0
+margin_right = 800.0
+margin_bottom = 437.0
+text = "NOLETO, Cairo. Debug ou Depuração: o que é, e para que serve?. [S. l.], 23 maio 2020. Disponível em: https://blog.betrybe.com/tecnologia/debug/. Acesso em: 31 out. 2021."
+valign = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Cite5" type="Label" parent="."]
+margin_left = 24.0
+margin_top = 484.0
+margin_right = 761.0
+margin_bottom = 532.0
+text = "BRANDÃO, Leônidas de Oliveira. Introdução às técnicas básicas de depuração de código. [S. l.], 01 2017. Disponível em: https://www.ime.usp.br/~leo/mac2166/2017-1/line_introducao_depuracao_codigos.html. Acesso em: 31 out. 2021."
+valign = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
