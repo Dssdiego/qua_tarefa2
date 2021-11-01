@@ -24,7 +24,7 @@ func export_pdf():
 	take_screenshot("1")
 	
 	go_to_scene(2) # game
-	yield(get_tree().create_timer(.5), "timeout")
+	yield(get_tree().create_timer(3), "timeout")
 	take_screenshot("2")
 	
 	go_to_scene(3) # comparison <> attributes
@@ -49,6 +49,9 @@ func _process(delta):
 	
 	if Input.is_action_just_pressed("scene_4"):
 		go_to_scene(4)
+		
+	if Input.is_action_just_pressed("screenshot"):
+		take_screenshot("screenshot")
 		
 	if Input.is_action_just_pressed("export"):
 		export_pdf()
