@@ -1,4 +1,6 @@
-[gd_scene format=2]
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://textures/arrow.png" type="Texture" id=1]
 
 [node name="Node2D" type="Node2D"]
 
@@ -6,10 +8,155 @@
 margin_top = 63.9339
 margin_right = 800.0
 margin_bottom = 97.9339
-text = "RELAÇÃO DE ATRIBUTOS"
+text = "MODELO DE QUALIDADE"
 align = 1
 valign = 1
 autowrap = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="Attribute7" type="Label" parent="."]
+margin_left = 46.0
+margin_top = 467.559
+margin_right = 200.0
+margin_bottom = 501.559
+text = "EFICIÊNCIA"
+valign = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Attribute2" type="Label" parent="."]
+margin_left = 67.0
+margin_top = 327.728
+margin_right = 221.0
+margin_bottom = 361.728
+text = "COMPLEXIDADE"
+valign = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Attribute3" type="Label" parent="."]
+margin_left = 55.0
+margin_top = 211.728
+margin_right = 209.0
+margin_bottom = 245.728
+text = "MODULARIDADE"
+valign = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Attribute8" type="Label" parent="."]
+margin_left = 599.0
+margin_top = 442.51
+margin_right = 754.0
+margin_bottom = 490.51
+text = "QUANTIDADE DE CLASSES (MÓDULOS) ASSOCIADAS ENTRE SI"
+align = 2
+valign = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Attribute5" type="Label" parent="."]
+margin_left = 600.0
+margin_top = 373.99
+margin_right = 754.0
+margin_bottom = 407.99
+text = "FRAMES PER SECOND (FPS)"
+align = 2
+valign = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Attribute6" type="Label" parent="."]
+margin_left = 600.0
+margin_top = 203.536
+margin_right = 754.0
+margin_bottom = 251.536
+text = "NÚMERO DE CHAMADAS DE API ENVIADAS PARA A GPU"
+align = 2
+valign = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Attribute9" type="Label" parent="."]
+margin_left = 600.0
+margin_top = 286.0
+margin_right = 754.0
+margin_bottom = 337.0
+text = "DURAÇÃO DO CICLO DE DRAWCALL
+(DELTA TIME)"
+align = 2
+valign = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Arrow" type="Sprite" parent="."]
+modulate = Color( 0.882353, 0.870588, 0.176471, 1 )
+position = Vector2( 391.045, 343.29 )
+rotation = 0.488497
+scale = Vector2( 3.76265, 1.00765 )
+texture = ExtResource( 1 )
+
+[node name="Arrow5" type="Sprite" parent="."]
+modulate = Color( 0.207843, 0.803922, 0.188235, 1 )
+position = Vector2( 396.045, 401.29 )
+rotation = 0.25865
+scale = Vector2( 3.35704, 1.00765 )
+texture = ExtResource( 1 )
+
+[node name="Arrow7" type="Sprite" parent="."]
+modulate = Color( 0.207843, 0.803922, 0.188235, 1 )
+position = Vector2( 390.045, 300.29 )
+rotation = -0.226599
+scale = Vector2( 3.19214, 1.00765 )
+texture = ExtResource( 1 )
+
+[node name="Arrow8" type="Sprite" parent="."]
+modulate = Color( 0.207843, 0.803922, 0.188235, 1 )
+position = Vector2( 394.045, 333.29 )
+rotation = -0.0673193
+scale = Vector2( 3.19214, 1.00765 )
+texture = ExtResource( 1 )
+
+[node name="Arrow2" type="Sprite" parent="."]
+modulate = Color( 0.815686, 0.152941, 0.152941, 1 )
+position = Vector2( 362.525, 369.546 )
+rotation = -0.467839
+scale = Vector2( 3.95509, 1.00765 )
+texture = ExtResource( 1 )
+
+[node name="Arrow3" type="Sprite" parent="."]
+modulate = Color( 0.815686, 0.152941, 0.152941, 1 )
+position = Vector2( 369.525, 402.546 )
+rotation = -0.339521
+scale = Vector2( 3.79685, 1.00765 )
+texture = ExtResource( 1 )
+
+[node name="Arrow4" type="Sprite" parent="."]
+modulate = Color( 0.815686, 0.152941, 0.152941, 1 )
+position = Vector2( 367.045, 439.29 )
+rotation = -0.19499
+scale = Vector2( 3.6935, 0.986224 )
+texture = ExtResource( 1 )
+
+[node name="Arrow6" type="Sprite" parent="."]
+modulate = Color( 0.815686, 0.152941, 0.152941, 1 )
+position = Vector2( 373.045, 470.29 )
+rotation = -0.0603571
+scale = Vector2( 3.65483, 0.986224 )
+texture = ExtResource( 1 )
