@@ -3,9 +3,9 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="Title" type="Label" parent="."]
-margin_top = 63.9339
+margin_top = 28.6566
 margin_right = 800.0
-margin_bottom = 97.9339
+margin_bottom = 62.6566
 text = "REFERÊNCIAS BIBLIOGRÁFICAS"
 align = 1
 valign = 1
@@ -16,10 +16,46 @@ __meta__ = {
 
 [node name="Cite1" type="Label" parent="."]
 margin_left = 24.0
-margin_top = 169.0
+margin_top = 317.464
 margin_right = 800.0
-margin_bottom = 203.0
+margin_bottom = 351.464
 text = "HOW TO DEBUG CODE - GAME PROGRAMMING TUTORIAL. [S. l.: s. n.], 2018. Disponível em: https://www.youtube.com/watch?v=Xhco4icJS3I. Acesso em: 31 out. 2021."
+valign = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Cite6" type="Label" parent="."]
+margin_left = 24.0
+margin_top = 99.0757
+margin_right = 800.0
+margin_bottom = 164.076
+text = "THE ANALYSIS and evaluation of ISO/IEC9126–3 internal quality measures applicability: state-of-the-art 2006. École de technologie supérieure, [S. l.], p. 47, 15 abr. 2006. Disponível em: http://profs.etsmtl.ca/wsuryn/research/SQE-Publ/ISO%209126%20state%20of%20the%20art.ICSSEA-2006.pdf. Acesso em: 31 out. 2021."
+valign = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Cite7" type="Label" parent="."]
+margin_left = 24.0
+margin_top = 183.135
+margin_right = 800.0
+margin_bottom = 248.135
+text = "ABNT - ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. NBR ISO/IEC 9126-1. Engenharia de software - Qualidade de produto, [S. l.], 30 jul. 2003. Disponível em: https://jkolb.com.br/wp-content/uploads/2014/02/NBR-ISO_IEC-9126-1.pdf. Acesso em: 31 out. 2021."
+valign = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Cite8" type="Label" parent="."]
+margin_left = 24.0
+margin_top = 245.139
+margin_right = 800.0
+margin_bottom = 310.139
+text = "MÉTRICAS e Qualidade de Software. [S. l.], 2010. Disponível em: https://mmpsw.files.wordpress.com/2010/04/aula-12-qualidade-sw.pdf. Acesso em: 31 out. 2021."
 valign = 1
 autowrap = true
 __meta__ = {
@@ -28,9 +64,9 @@ __meta__ = {
 
 [node name="Cite2" type="Label" parent="."]
 margin_left = 24.0
-margin_top = 244.0
+margin_top = 371.545
 margin_right = 800.0
-margin_bottom = 278.0
+margin_bottom = 405.545
 text = "OVERVIEW OF DEBUGGING TOOLS - GODOT ENGINE. [S. l.: s. n.], 2021. Disponível em: https://docs.godotengine.org/en/stable/tutorials/debug/overview_of_debugging_tools.html. Acesso em: 31 out. 2021."
 valign = 1
 autowrap = true
@@ -40,9 +76,9 @@ __meta__ = {
 
 [node name="Cite3" type="Label" parent="."]
 margin_left = 24.0
-margin_top = 322.0
+margin_top = 422.167
 margin_right = 800.0
-margin_bottom = 356.0
+margin_bottom = 456.167
 text = "BÉLAIR, François. GETTING STARTED WITH DEBUGGING IN GODOT. [S. l.], 2020. Disponível em: https://www.gdquest.com/tutorial/godot/gdscript/debugging/. Acesso em: 31 out. 2021."
 valign = 1
 autowrap = true
@@ -52,9 +88,9 @@ __meta__ = {
 
 [node name="Cite4" type="Label" parent="."]
 margin_left = 24.0
-margin_top = 403.0
+margin_top = 471.977
 margin_right = 800.0
-margin_bottom = 437.0
+margin_bottom = 505.977
 text = "NOLETO, Cairo. Debug ou Depuração: o que é, e para que serve?. [S. l.], 23 maio 2020. Disponível em: https://blog.betrybe.com/tecnologia/debug/. Acesso em: 31 out. 2021."
 valign = 1
 autowrap = true
@@ -64,9 +100,9 @@ __meta__ = {
 
 [node name="Cite5" type="Label" parent="."]
 margin_left = 24.0
-margin_top = 484.0
+margin_top = 524.167
 margin_right = 761.0
-margin_bottom = 532.0
+margin_bottom = 572.167
 text = "BRANDÃO, Leônidas de Oliveira. Introdução às técnicas básicas de depuração de código. [S. l.], 01 2017. Disponível em: https://www.ime.usp.br/~leo/mac2166/2017-1/line_introducao_depuracao_codigos.html. Acesso em: 31 out. 2021."
 valign = 1
 autowrap = true
