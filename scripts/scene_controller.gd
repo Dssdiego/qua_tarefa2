@@ -1,10 +1,12 @@
 extends Node
 
+# tira o print de uma cena
 func take_screenshot(scene_name):
 	var capture = get_viewport().get_texture().get_data()
 	capture.flip_y()
 	capture.save_png("res://export/" + scene_name + ".png")
 
+# abre uma cena
 func go_to_scene(number):
 	if number == 1:
 		get_tree().change_scene("res://scenes/header.tscn")
@@ -18,6 +20,7 @@ func go_to_scene(number):
 	if number == 4:
 		get_tree().change_scene("res://scenes/citations.tscn")
 
+# exporta slides
 func export_pdf():
 	go_to_scene(1) # header
 	yield(get_tree().create_timer(.5), "timeout")

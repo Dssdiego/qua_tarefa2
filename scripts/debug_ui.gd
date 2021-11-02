@@ -5,6 +5,7 @@ onready var label_speed = get_node("Logo Speed")
 
 export var show_debug = false
 
+# atualiza o HUD
 func update_hud(direction, speed):
 	label_direction.text = "(" + str(direction.x) + " , " + str(direction.y) + ")"
 	label_speed.text = str(speed)
