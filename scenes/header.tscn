@@ -18,12 +18,15 @@ __meta__ = {
 
 [node name="Cite1" type="Label" parent="."]
 margin_left = 24.0
-margin_top = 319.757
+margin_top = 297.508
 margin_right = 776.0
-margin_bottom = 435.757
+margin_bottom = 413.508
 text = "ALUNO: DIEGO SANTOS SEABRA
 
-MATRÍCULA: 0040251"
+MATRÍCULA: 0040251
+
+
+https://github.com/Dssdiego/qua_tarefa2"
 align = 2
 valign = 1
 autowrap = true

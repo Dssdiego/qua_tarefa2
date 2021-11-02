@@ -1,16 +1,14 @@
 extends KinematicBody2D
 
 onready var ui_debug = get_parent().get_node("DebugUI")
+onready var line2d = get_node("Line2D")
 
-var last_idx
 var colors = [Color.royalblue, Color.darkorange, Color.darkgreen, Color.darkmagenta, Color.orange, Color.cyan, Color.red]
 var initial_speed = 5
 var speed = 0
 var can_move = false
 var direction = Vector2(0,0)
-
-func _ready():
-	pass # Replace with function body.
+var is_debug = false
 
 func calc_screen_border_collision():
 	var screen_size = get_viewport_rect().size
@@ -49,6 +47,12 @@ func position_ball_at_center():
 	var screen_size = get_viewport_rect().size
 	position = Vector2(screen_size.x/2, screen_size.y/2)
 
+func draw_debug_line(target: Vector2):
+	var multp = 20
+	line2d.points = [Vector2(0,0), Vector2(target.x * multp, target.y * multp)]
+	line2d.default_color = Color.red
+	line2d.width = 4
+
 func _process(delta):
 	if Input.is_action_just_pressed("play_ball"):
 		position_ball_at_center()
@@ -69,6 +73,14 @@ func _process(delta):
 	if can_move:
 		ui_debug.update_hud(direction, speed)
 		calc_screen_border_collision()
+	
+	if Input.is_action_just_pressed("debug"):
+		is_debug = !is_debug
+	
+	if is_debug:
+		draw_debug_line(Vector2(direction.x, direction.y))
+	else:
+		line2d.clear_points()
 
 func _physics_process(delta):
 	position += direction.normalized() * speed

@@ -56,6 +56,8 @@ position = Vector2( 400, 300 )
 scale = Vector2( 2, 2 )
 script = ExtResource( 5 )
 
+[node name="Line2D" type="Line2D" parent="Logo"]
+
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Logo"]
 shape = SubResource( 1 )
 
