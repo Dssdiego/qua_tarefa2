@@ -29,7 +29,7 @@ func calc_screen_border_collision():
 	# check de colisão da esquerda
 	if collision_left < 0: # 'Passou' da parte esquerda, reflete para direita
 #		print('Passou da esquerda')
-		direction.x *= 1
+		direction.x *= -1
 		change_color()
 	
 	# check de colisão de baixo
@@ -80,6 +80,8 @@ func _process(delta):
 	if Input.is_action_just_pressed("reset_speed"):
 		speed = initial_speed
 	
+	# se o objeto pode mover, calcula a possível colisão com
+	#  a borda da tela
 	if can_move:
 		ui_debug.update_hud(direction, speed)
 		calc_screen_border_collision()
